@@ -1,0 +1,35 @@
+:root {
+  --brand-color: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #2e2f42;
+  --hero-background-color: #2e2f42;
+}
+
+body {
+  color: var(--text-color);
+}
+
+.page-nav-link {
+  color: var(--dark-color);
+}
+
+.address-link {
+  color: var(--text-color);
+}
+
+.page-nav-link:hover,
+.address-link:hover,
+.page-nav-link:focus,
+.address-link:focus {
+  color: var(--pressed-state);
+}
+
+.hero-title {
+  color: #ffffff;
+}
