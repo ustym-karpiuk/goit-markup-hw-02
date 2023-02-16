@@ -49,6 +49,7 @@ body {
 .page-nav-link {
 	color: var(--dark-color);
 	font-weight: 500;
+	line-height: 1.5;
 	text-decoration: none;
 	letter-spacing: 0.02em;
 }
@@ -61,6 +62,7 @@ body {
 	color: var(--text-color);
 	font-style: normal;
 	font-weight: 400;
+	line-height: 1.5;
 	text-decoration: none;
 	letter-spacing: 0.02em;
 }
@@ -145,6 +147,11 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 }
+
+.paragraph {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
 /* Sections */
 
 .section-title {
@@ -159,6 +166,10 @@ body {
 /* Team */
 .team {
 	background: var(--light-color);
+}
+.job {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 /* Footer */
